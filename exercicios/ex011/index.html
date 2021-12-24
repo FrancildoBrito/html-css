@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir em vários tamanhos e dispositivos</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/M.png" type="image/png">
+    <img src="imagens/G.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio </p>
+    <audio src="midias/north-oakland-extasy-squadda-b.mp3" controls></audio>
+    <p>Novo audio</p>
+    <audio preload="metadata" controls>
+        <source src="midias/space-age-hustle-squadda-b.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
