@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Aranha';
-  src: url(/teste1/fontes/spiderfont.ttf)format('opentype');
+  src: url(/fontes/spiderfont.ttf)format('opentype');
   font-weight: normal;
 }
 *{
